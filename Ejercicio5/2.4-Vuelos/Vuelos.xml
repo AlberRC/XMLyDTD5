@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 31-03-2025
+Ejercicio: Vuelos
+-->
+<!DOCTYPE vuelos [
+    <!ELEMENT vuelos (vuelo*)>
+    <!ELEMENT vuelo (origen, destino)>
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
+]>
+<vuelos>
+    <vuelo>
+        <origen>Valencia (VLC)</origen>
+        <destino>Londres Heathrow (LHR)</destino>
+    </vuelo>
+    <vuelo>
+        <origen>Berlín Schönefeld (SFX)</origen>
+        <destino>París Charles de Gaulle (CDG)</destino>
+    </vuelo>
+</vuelos>
